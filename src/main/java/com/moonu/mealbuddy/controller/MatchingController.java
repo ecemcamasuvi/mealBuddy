@@ -21,4 +21,9 @@ public class MatchingController {
     public List<MealDTO> getMealList(){
         return matchingService.getMealList();
     }
+
+    @GetMapping("/generate-random-meal")
+    public MealDTO generateRandomMeal(){
+        return matchingService.getRandomMeal();
+    }
 }

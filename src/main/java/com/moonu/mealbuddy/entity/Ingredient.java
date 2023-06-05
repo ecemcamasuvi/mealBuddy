@@ -7,17 +7,16 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@Table(name="meal")
-public class Meal {
+@Table(name="ingredient")
+public class Ingredient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @Column(name = "title")
-    private String title;
+    @Column(name = "quantity")
+    private Long quantity;
 
-    @Column(name="activity")
-    private boolean isActive;
+    //@Column(name = "quantity_type")
 
 }
