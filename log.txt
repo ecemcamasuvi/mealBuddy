@@ -1,0 +1,190 @@
+2023-03-25T00:47:47.047+03:00  INFO 16244 --- [restartedMain] c.moonu.mealBuddy.MealBuddyApplication   : Starting MealBuddyApplication using Java 17.0.3.1 with PID 16244 (C:\Projects\mealBuddy\target\classes started by DELL in C:\Projects\mealBuddy)
+2023-03-25T00:47:47.052+03:00  INFO 16244 --- [restartedMain] c.moonu.mealBuddy.MealBuddyApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-25T00:47:47.140+03:00  INFO 16244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-25T00:47:47.141+03:00  INFO 16244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-25T00:47:48.078+03:00  INFO 16244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-25T00:47:48.111+03:00  INFO 16244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2023-03-25T00:47:49.494+03:00  INFO 16244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-25T00:47:49.509+03:00  INFO 16244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-25T00:47:49.510+03:00  INFO 16244 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-25T00:47:49.592+03:00  INFO 16244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-25T00:47:49.594+03:00  INFO 16244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2451 ms
+2023-03-25T00:47:49.638+03:00  INFO 16244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-25T00:47:49.920+03:00  INFO 16244 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/fileDb user=ADMIN
+2023-03-25T00:47:49.924+03:00  INFO 16244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-25T00:47:49.938+03:00  INFO 16244 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./data/fileDb'
+2023-03-25T00:47:50.160+03:00  INFO 16244 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-25T00:47:50.239+03:00  INFO 16244 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-25T00:47:50.751+03:00  INFO 16244 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-25T00:47:51.785+03:00  INFO 16244 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-25T00:47:51.801+03:00  INFO 16244 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T00:47:51.875+03:00  WARN 16244 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-25T00:47:52.436+03:00  INFO 16244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-25T00:47:52.508+03:00  INFO 16244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-25T00:47:52.525+03:00  INFO 16244 --- [restartedMain] c.moonu.mealBuddy.MealBuddyApplication   : Started MealBuddyApplication in 6.239 seconds (process running for 7.097)
+2023-03-25T00:49:08.541+03:00  INFO 16244 --- [http-nio-8080-exec-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-25T00:49:08.543+03:00  INFO 16244 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-25T00:49:08.545+03:00  INFO 16244 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-25T01:06:23.295+03:00  INFO 21224 --- [restartedMain] c.moonu.mealBuddy.MealBuddyApplication   : Starting MealBuddyApplication using Java 17.0.3.1 with PID 21224 (C:\Projects\mealBuddy\target\classes started by DELL in C:\Projects\mealBuddy)
+2023-03-25T01:06:23.312+03:00  INFO 21224 --- [restartedMain] c.moonu.mealBuddy.MealBuddyApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-25T01:06:23.451+03:00  INFO 21224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-25T01:06:23.455+03:00  INFO 21224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-25T01:06:24.598+03:00  INFO 21224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-25T01:06:24.883+03:00  INFO 21224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 262 ms. Found 1 JPA repository interfaces.
+2023-03-25T01:06:26.275+03:00  INFO 21224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-25T01:06:26.299+03:00  INFO 21224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-25T01:06:26.300+03:00  INFO 21224 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-25T01:06:26.452+03:00  INFO 21224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-25T01:06:26.454+03:00  INFO 21224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2997 ms
+2023-03-25T01:06:26.598+03:00  INFO 21224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-25T01:06:27.093+03:00  INFO 21224 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/fileDb user=ADMIN
+2023-03-25T01:06:27.095+03:00  INFO 21224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-25T01:06:27.112+03:00  INFO 21224 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./data/fileDb'
+2023-03-25T01:06:27.411+03:00  INFO 21224 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-25T01:06:27.530+03:00  INFO 21224 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-25T01:06:28.186+03:00  INFO 21224 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-25T01:06:29.469+03:00  INFO 21224 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-25T01:06:29.482+03:00  INFO 21224 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T01:06:29.498+03:00  WARN 21224 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'matchingController': Unsatisfied dependency expressed through field 'matchingService': No qualifying bean of type 'com.moonu.mealBuddy.service.MatchingService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-03-25T01:06:29.499+03:00  INFO 21224 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T01:06:29.506+03:00  INFO 21224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-25T01:06:29.524+03:00  INFO 21224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-25T01:06:29.527+03:00  INFO 21224 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-25T01:06:29.545+03:00  INFO 21224 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-03-25T01:06:29.581+03:00 ERROR 21224 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field matchingService in com.moonu.mealBuddy.controller.MatchingController required a bean of type 'com.moonu.mealBuddy.service.MatchingService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.moonu.mealBuddy.service.MatchingService' in your configuration.
+
+2023-03-25T01:08:14.995+03:00  INFO 2784 --- [restartedMain] c.moonu.mealBuddy.MealBuddyApplication   : Starting MealBuddyApplication using Java 17.0.3.1 with PID 2784 (C:\Projects\mealBuddy\target\classes started by DELL in C:\Projects\mealBuddy)
+2023-03-25T01:08:15.001+03:00  INFO 2784 --- [restartedMain] c.moonu.mealBuddy.MealBuddyApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-25T01:08:15.107+03:00  INFO 2784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-25T01:08:15.109+03:00  INFO 2784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-25T01:08:16.136+03:00  INFO 2784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-25T01:08:16.232+03:00  INFO 2784 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2023-03-25T01:08:17.315+03:00  INFO 2784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-25T01:08:17.333+03:00  INFO 2784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-25T01:08:17.334+03:00  INFO 2784 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-25T01:08:17.432+03:00  INFO 2784 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-25T01:08:17.435+03:00  INFO 2784 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2324 ms
+2023-03-25T01:08:17.480+03:00  INFO 2784 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-25T01:08:17.836+03:00  INFO 2784 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/fileDb user=ADMIN
+2023-03-25T01:08:17.840+03:00  INFO 2784 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-25T01:08:17.855+03:00  INFO 2784 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./data/fileDb'
+2023-03-25T01:08:18.079+03:00  INFO 2784 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-25T01:08:18.183+03:00  INFO 2784 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-25T01:08:18.661+03:00  INFO 2784 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-25T01:08:19.704+03:00  INFO 2784 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-25T01:08:19.715+03:00  INFO 2784 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T01:08:20.179+03:00  WARN 2784 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-25T01:08:20.651+03:00  INFO 2784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-25T01:08:20.696+03:00  INFO 2784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-25T01:08:20.708+03:00  INFO 2784 --- [restartedMain] c.moonu.mealBuddy.MealBuddyApplication   : Started MealBuddyApplication in 6.45 seconds (process running for 7.281)
+2023-03-25T01:11:10.242+03:00  INFO 2784 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-25T01:11:10.246+03:00  INFO 2784 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-25T01:11:10.251+03:00  INFO 2784 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-03-25T01:35:15.858+03:00  INFO 2784 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T01:35:15.864+03:00  INFO 2784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-25T01:35:15.867+03:00  INFO 2784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-25T01:35:24.594+03:00  INFO 9316 --- [restartedMain] c.moonu.mealbuddy.MealBuddyApplication   : Starting MealBuddyApplication using Java 17.0.3.1 with PID 9316 (C:\Projects\mealBuddy\target\classes started by DELL in C:\Projects\mealBuddy)
+2023-03-25T01:35:24.601+03:00  INFO 9316 --- [restartedMain] c.moonu.mealbuddy.MealBuddyApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-25T01:35:24.711+03:00  INFO 9316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-25T01:35:24.713+03:00  INFO 9316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-25T01:35:25.677+03:00  INFO 9316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-25T01:35:25.772+03:00  INFO 9316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+2023-03-25T01:35:26.868+03:00  INFO 9316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-25T01:35:26.886+03:00  INFO 9316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-25T01:35:26.887+03:00  INFO 9316 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-25T01:35:26.976+03:00  INFO 9316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-25T01:35:26.978+03:00  INFO 9316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2264 ms
+2023-03-25T01:35:27.025+03:00  INFO 9316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-25T01:35:27.423+03:00  INFO 9316 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/fileDb user=ADMIN
+2023-03-25T01:35:27.425+03:00  INFO 9316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-25T01:35:27.441+03:00  INFO 9316 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./data/fileDb'
+2023-03-25T01:35:27.677+03:00  INFO 9316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-25T01:35:27.765+03:00  INFO 9316 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-25T01:35:28.259+03:00  INFO 9316 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-25T01:35:29.241+03:00  INFO 9316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-25T01:35:29.252+03:00  INFO 9316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T01:35:29.725+03:00  WARN 9316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-25T01:35:30.201+03:00  INFO 9316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-25T01:35:30.251+03:00  INFO 9316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-25T01:35:30.263+03:00  INFO 9316 --- [restartedMain] c.moonu.mealbuddy.MealBuddyApplication   : Started MealBuddyApplication in 6.367 seconds (process running for 7.064)
+2023-03-25T01:35:36.324+03:00  INFO 9316 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-25T01:35:36.328+03:00  INFO 9316 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-25T01:35:36.330+03:00  INFO 9316 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-25T01:36:41.553+03:00  INFO 9316 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T01:36:41.559+03:00  INFO 9316 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-25T01:36:41.563+03:00  INFO 9316 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-25T01:36:47.192+03:00  INFO 6484 --- [restartedMain] c.moonu.mealbuddy.MealBuddyApplication   : Starting MealBuddyApplication using Java 17.0.3.1 with PID 6484 (C:\Projects\mealBuddy\target\classes started by DELL in C:\Projects\mealBuddy)
+2023-03-25T01:36:47.198+03:00  INFO 6484 --- [restartedMain] c.moonu.mealbuddy.MealBuddyApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-25T01:36:47.301+03:00  INFO 6484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-25T01:36:47.303+03:00  INFO 6484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-25T01:36:48.260+03:00  INFO 6484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-25T01:36:48.366+03:00  INFO 6484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interfaces.
+2023-03-25T01:36:49.458+03:00  INFO 6484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-25T01:36:49.474+03:00  INFO 6484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-25T01:36:49.475+03:00  INFO 6484 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-25T01:36:49.573+03:00  INFO 6484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-25T01:36:49.575+03:00  INFO 6484 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2271 ms
+2023-03-25T01:36:49.617+03:00  INFO 6484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-25T01:36:49.901+03:00  INFO 6484 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/fileDb user=ADMIN
+2023-03-25T01:36:49.904+03:00  INFO 6484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-25T01:36:49.918+03:00  INFO 6484 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./data/fileDb'
+2023-03-25T01:36:50.158+03:00  INFO 6484 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-25T01:36:50.257+03:00  INFO 6484 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-25T01:36:50.735+03:00  INFO 6484 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-25T01:36:51.886+03:00  INFO 6484 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-25T01:36:51.920+03:00  INFO 6484 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T01:36:52.389+03:00  WARN 6484 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-25T01:36:52.867+03:00  INFO 6484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-25T01:36:52.914+03:00  INFO 6484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-25T01:36:52.926+03:00  INFO 6484 --- [restartedMain] c.moonu.mealbuddy.MealBuddyApplication   : Started MealBuddyApplication in 6.429 seconds (process running for 7.12)
+2023-03-25T01:36:54.983+03:00  INFO 6484 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-25T01:36:54.985+03:00  INFO 6484 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-25T01:36:54.986+03:00  INFO 6484 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-25T01:43:27.119+03:00  INFO 6484 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T01:43:27.125+03:00  INFO 6484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-25T01:43:27.129+03:00  INFO 6484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-25T01:43:31.837+03:00  INFO 19308 --- [restartedMain] c.moonu.mealbuddy.MealBuddyApplication   : Starting MealBuddyApplication using Java 17.0.3.1 with PID 19308 (C:\Projects\mealBuddy\target\classes started by DELL in C:\Projects\mealBuddy)
+2023-03-25T01:43:31.849+03:00  INFO 19308 --- [restartedMain] c.moonu.mealbuddy.MealBuddyApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-25T01:43:31.984+03:00  INFO 19308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-25T01:43:31.986+03:00  INFO 19308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-25T01:43:33.608+03:00  INFO 19308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-25T01:43:33.724+03:00  INFO 19308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+2023-03-25T01:43:34.907+03:00  INFO 19308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-25T01:43:34.928+03:00  INFO 19308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-25T01:43:34.929+03:00  INFO 19308 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-25T01:43:35.032+03:00  INFO 19308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-25T01:43:35.034+03:00  INFO 19308 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3046 ms
+2023-03-25T01:43:35.096+03:00  INFO 19308 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-25T01:43:35.422+03:00  INFO 19308 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/fileDb user=ADMIN
+2023-03-25T01:43:35.427+03:00  INFO 19308 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-25T01:43:35.442+03:00  INFO 19308 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./data/fileDb'
+2023-03-25T01:43:35.711+03:00  INFO 19308 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-25T01:43:35.805+03:00  INFO 19308 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-25T01:43:36.304+03:00  INFO 19308 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-25T01:43:37.359+03:00  INFO 19308 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-25T01:43:37.372+03:00  INFO 19308 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-25T01:43:37.843+03:00  WARN 19308 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-25T01:43:38.373+03:00  INFO 19308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-25T01:43:38.445+03:00  INFO 19308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-25T01:43:38.471+03:00  INFO 19308 --- [restartedMain] c.moonu.mealbuddy.MealBuddyApplication   : Started MealBuddyApplication in 7.395 seconds (process running for 8.25)
+2023-03-25T01:43:52.930+03:00  INFO 19308 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-25T01:43:52.934+03:00  INFO 19308 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-25T01:43:52.936+03:00  INFO 19308 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
