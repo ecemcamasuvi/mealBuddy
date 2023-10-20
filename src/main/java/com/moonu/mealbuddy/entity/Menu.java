@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @Getter
@@ -16,9 +17,11 @@ public class Menu {
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @ManyToMany(fetch = FetchType.LAZY)
-    @JoinColumn(name = "meal_id")
-    private Meal meal;
+    @ManyToMany
+    @JoinTable(name = "meal_id",
+    joinColumns = @JoinColumn(name = "id"),
+    inverseJoinColumns = @JoinColumn(name = "meal_id"))
+    private List<Meal> mealList;
 
     @Column(name = "date")
     private LocalDate date;
